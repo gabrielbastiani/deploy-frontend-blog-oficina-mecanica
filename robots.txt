@@ -1,0 +1,6 @@
+Sitemap: https://blog.builderseunegocioonline.com.br/server-sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*

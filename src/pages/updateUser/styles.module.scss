@@ -1,0 +1,216 @@
+.containerCenter {
+   min-height: 100vh;
+   display: grid;
+   grid-template-columns: auto auto;
+   background-color: var(--gray);
+   justify-content: center;
+
+   h1 {
+      margin-bottom: 1.5rem;
+      font-size: 2em;
+   }
+}
+
+.returnBox {
+   display: flex;
+   align-self: flex-start;
+   cursor: pointer;
+   margin-bottom: 1.5rem;
+}
+
+
+.login {
+   margin-top: 2rem;
+   width: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 2rem 1.5rem;
+
+   h1 {
+      color: var(--black);
+      padding-bottom: 1rem;
+   }
+
+   form {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+
+      Input{
+         text-align: center;
+      }
+   }
+
+   form button {
+      height: 40px;
+      font-size: 1.2rem;
+   }
+
+   p {
+      text-align: center;
+      padding-bottom: 2.5rem;
+      font-weight: 500;
+   }
+}
+
+.buttonPhoto{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 20px;
+
+   Button{
+      max-width: 280px;
+      background-color: var(--orange);
+   }
+}
+
+.text {
+   margin-top: 1rem;
+   color: var(--black);
+   cursor: pointer;
+   text-decoration: none;
+}
+
+@media (max-width: 620px) {
+   .login {
+      width: 90%;
+   }
+}
+
+.labelAvatar {
+   margin-bottom: 1rem;
+   border-radius: 0.3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+
+   input {
+      display: none;
+   }
+
+   span {
+      z-index: 99;
+      position: absolute;
+      opacity: 0.7;
+      transition: all 0.7s;
+   }
+
+   span:hover {
+      opacity: 1;
+      transform: scale(1.2);
+   }
+
+}
+
+.userImg {
+   width: 43%;
+   height: 200px;
+   border-radius: 50%;
+   margin-bottom: 7%;
+}
+
+.userImgPreview {
+   width: 35%;
+   border-radius: 50%;
+}
+
+.inputRole{
+   background-color: var(--white);
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   padding: 25px;
+   border-radius: 5%;
+}
+
+.sectionUser {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 2rem 1.5rem;
+
+   h1 {
+      margin-top: -85px;
+   }
+}
+
+.listUsers {
+   margin: 15px 0;
+}
+
+.listName {
+   cursor: pointer;
+}
+
+.photoUser {
+
+   img {
+      border-radius: 50%;
+      max-width: 40px;
+      max-height: 50px;
+   }
+}
+
+.name {
+   display: flex;
+   align-items: center;
+
+   p {
+      font-weight: 800;
+      margin-right: 8px;
+   }
+}
+
+.userDate {
+   display: flex;
+   align-items: center;
+
+   p {
+      font-weight: 800;
+      margin-right: 8px;
+   }
+}
+
+.dateUser {
+   display: flex;
+   align-items: center;
+
+   p {
+      font-weight: 800;
+      margin-right: 8px;
+   }
+}
+
+@media (max-width: 997px) {
+   .containerCenter {
+      grid-template-columns: auto;
+   }
+
+   .sectionUser {
+      margin-bottom: 100px;
+
+      h1 {
+         margin-top: unset;
+      }
+   }
+}
+
+@media (max-width: 413px) {
+   .name {
+      flex-direction: column;
+   }
+
+   .userDate {
+      flex-direction: column;
+   }
+
+   .dateUser {
+      flex-direction: column;
+   }
+}

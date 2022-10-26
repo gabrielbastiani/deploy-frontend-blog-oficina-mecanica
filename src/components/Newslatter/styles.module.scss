@@ -1,0 +1,126 @@
+.sectionNewslatter {
+   background-color: #d9d9d9;
+   width: 880px;
+   border-radius: 10px;
+   margin: auto 30px;
+
+   h2 {
+      padding: 15px;
+   }
+
+   span{
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      padding: 20px;
+      justify-content: center;
+   }
+}
+
+.formBox {
+
+   margin-top: 15px;
+   padding: 0 15px;
+
+
+   label {
+      font-weight: 600;
+      font-size: 1.2rem;
+   }
+
+   Input {
+      margin-right: 16px;
+      height: 5px !important;
+      font-size: 14px;
+      width: 35%;
+   }
+
+   Button {
+      padding: 0.5rem;
+      width: 40%;
+      margin-top: 12px;
+   }
+
+   p{
+      text-align: center;
+   }
+}
+
+.recaptcha{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.buttonSend{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+}
+
+@media (max-width: 1358px) {
+   .sectionNewslatter {
+      width: 740px;
+
+      span{
+         justify-content: center;
+         margin: 20px;
+         margin-inline: auto;
+      }
+   }
+
+   .formBox{
+      text-align: center;
+
+      Button{
+         width: 20%;
+      }
+   }
+}
+
+@media (max-width: 1088px){
+   .sectionNewslatter {
+      margin-top: 35px;
+   }
+}
+
+@media (max-width: 770px){
+   .sectionNewslatter {
+      width: 540px;
+      padding: 40px;
+   }
+
+   .formBox{
+      display: flex;
+      flex-direction: column;
+
+      Input{
+         width: 80%;
+      }
+
+      Button{
+         width: 90%;
+      }
+   }
+}
+
+@media (max-width: 585px){
+   .sectionNewslatter {
+      width: 440px;
+   }
+}
+
+@media (max-width: 478px){
+   .sectionNewslatter {
+      width: 350px;
+   }
+
+   .formBox{
+ 
+      Input{
+         width: 100%;
+      }
+
+   }
+}

@@ -1,0 +1,265 @@
+.container {
+  min-height: 100vh;
+  max-width: 1180px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  h1 {
+    color: var(--black);
+  }
+
+  h3 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  .return {
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+  }
+
+  select {
+    width: 100%;
+    height: 40px;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    color: var(--orange);
+    background-color: var(--black);
+    border: 1px solid var(--orange);
+    padding: 0 0.5rem;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.input {
+  background-color: var(--black);
+  border: 0;
+  padding: 1rem;
+  height: 40px;
+  border-radius: 0.5rem;
+  color: var(--white);
+  border: 1px solid var(--orange);
+  margin-bottom: 1rem;
+}
+
+.buttonAdd {
+  height: 40px;
+  border: 0;
+  background-color: var(--orange);
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.listCategories {
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  .nameCategory {
+    width: 60%;
+    cursor: pointer;
+    align-self: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    padding-left: 1.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .dates {
+    width: 40%;
+    margin: 0.5rem;
+    display: flex;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-weight: lighter;
+    font-size: 0.7rem;
+
+    span {
+      padding: 3px 0;
+    }
+  }
+
+}
+
+.buttonRefresh {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 40px;
+  border: 0;
+  background-color: var(--red);
+  font-weight: 400;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.refresh {
+  color: var(--white);
+  margin-right: 3%;
+}
+
+.emptyList {
+  margin-top: 2rem;
+}
+
+.categoryBox {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.category {
+  width: 100%;
+}
+
+.containerPagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalCategorys {
+  margin: 15px 5px;
+}
+
+.containerCategorysPages {
+  display: flex;
+
+  button {
+    padding: 5px 10px;
+    height: 40px;
+    border: 0;
+    background-color: var(--orange);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    color: var(--black);
+    cursor: pointer;
+  }
+}
+
+.page {
+  margin: 0 10px;
+  padding: 12px 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--orange);
+    border-radius: 0.3rem;
+  }
+
+  &:active {
+    background-color: var(--orange);
+    border-radius: 0.3rem;
+  }
+}
+
+.allCategorys {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 20px;
+}
+
+.allCategorysBox {
+  border: 1px solid var(--orange);
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 7px 0;
+  background-color: var(--black);
+  display: flex;
+  align-content: center;
+  align-items: center;
+  color: var(--black);
+  height: auto;
+
+  span{
+    width: 180px;
+    color: var(--white);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 1021px){
+  .allCategorys {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media (max-width: 880px){
+  .allCategorys {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 670px){
+  .allCategorys {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 455px) {
+  .page {
+    display: none;
+  }
+
+  .allCategorys {
+    grid-template-columns: auto;
+  }
+}
+
+.sectionBoxContainer {
+
+  Input {
+    width: 73%;
+  }
+
+  Button {
+    margin-left: 10px;
+    padding: 10px;
+    width: 25%;
+  }
+}
+
+@media (max-width: 555px) {
+  .sectionBoxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    Input {
+      width: 89%;
+    }
+
+    Button {
+      margin-left: 10px;
+      padding: 15px;
+      width: 45%;
+    }
+  }
+}

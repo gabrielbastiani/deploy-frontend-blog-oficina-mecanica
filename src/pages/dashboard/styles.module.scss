@@ -1,0 +1,423 @@
+.container {
+  max-width: 1180px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 2em;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  select {
+    width: 100%;
+    height: 40px;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    color: var(--orange);
+    background-color: var(--black);
+    border: 1px solid var(--orange);
+    padding: 0 0.5rem;
+  }
+}
+
+.tableContent {
+  width: 20%;
+  height: 10%;
+}
+
+.descriptionText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listArticles {
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 250px;
+
+  .boxArticle {
+    width: 60%;
+    cursor: pointer;
+    align-self: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    padding-left: 1.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .datesAndPublish {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 13%;
+    text-align: center;
+
+    hr {
+      width: 100%;
+      height: 2px;
+      border: 0px;
+      border-top: 1px solid var(--black);
+    }
+
+    span {
+      padding: 12px;
+      font-size: 14px;
+      line-height: 1.1rem;
+    }
+  }
+
+}
+
+.tagsAndAutorBox {
+  border-bottom: 1px solid var(--black);
+  border-left: 1px solid var(--black);
+  border-right: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 2px;
+
+  .author{
+    border-right: 1px solid var(--black);
+    padding-right: 10px;
+  }
+
+  span {
+    color: var(--black);
+    font-weight: 800;
+    padding: 0 7px;
+  }
+
+}
+
+.nao {
+  background-color: var(--red);
+}
+
+.sim {
+  background-color: green;
+}
+
+.bannerArticle {
+  border-right: 1px solid;
+  width: 30%;
+  max-height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+
+  Image {
+    object-fit: cover;
+  }
+}
+
+.titleArticle {
+  background-color: var(--white);
+  text-align: center;
+  border: 1px solid;
+  padding: 20px 4px 20px;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.descriptionArticle {
+  border-right: 1px solid;
+  padding: 15px;
+  width: 60%;
+  white-space: pre;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.articleUpdate {
+  cursor: pointer;
+  background-color: var(--black);
+  align-self: center;
+  padding: 28px;
+  justify-content: center;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--gray);
+}
+
+.deleteArticle {
+  cursor: pointer;
+  background-color: var(--black);
+  align-self: center;
+  padding: 28px;
+  justify-content: center;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--gray);
+}
+
+.publishArticle {
+  cursor: pointer;
+  align-self: center;
+  background-color: var(--black);
+  padding: 28px;
+  justify-content: center;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--gray);
+}
+
+.despublishArticle {
+  cursor: pointer;
+  align-self: center;
+  background-color: var(--black);
+  padding: 28px;
+  justify-content: center;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--gray);
+}
+
+.buttonRefresh {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 40px;
+  border: 0;
+  background-color: var(--red);
+  font-weight: 400;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.refresh {
+  color: var(--white);
+  margin-right: 3%;
+}
+
+.emptyList {
+  margin-top: 2rem;
+}
+
+.boxSearch {
+  width: 100%;
+  margin: 4rem auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  Input {
+     width: 70%;
+     margin-right: 20px;
+     margin-bottom: unset;
+  }
+
+  button {
+     height: 40px;
+     border: 0;
+     background-color: var(--red);
+     font-weight: 400;
+     font-size: 1.2rem;
+     border-radius: 0.3rem;
+     color: var(--white);
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
+     width: 20%;
+  }
+}
+
+.articleBox {
+  width: 985px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 1rem 0 5rem 0;
+}
+
+.article {
+  width: 100%;
+}
+
+@media (max-width: 1155px) {
+  .articleBox {
+    flex-direction: column;
+    display: contents;
+  }
+
+  .containerUpdate {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .articleUpdate {
+    width: 100%;
+    height: 20%;
+  }
+
+  .deleteArticle {
+    width: 100%;
+    height: 20%;
+  }
+
+  .publishArticle {
+    width: 100%;
+    height: 20%;
+  }
+
+  .despublishArticle {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 760px) {
+  .bannerArticle {
+    width: 95%;
+  }
+
+  .descriptionArticle {
+    display: none;
+  }
+
+  .datesAndPublish {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 615px) {
+  .containerPagination {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 455px) {
+  .page {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .bannerArticle {
+    border-right: none;
+  }
+
+  .datesAndPublish {
+    display: none !important;
+  }
+}
+
+.containerPagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalArticles {
+  margin: 15px 5px;
+}
+
+.containerArticlesPages {
+  display: flex;
+
+  button {
+    margin: 0 15px;
+    padding: 5px 10px;
+    height: 40px;
+    border: 0;
+    background-color: var(--orange);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    color: var(--black);
+    cursor: pointer;
+  }
+}
+
+.page {
+  margin: 0 10px;
+  padding: 12px 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--orange);
+    border-radius: 0.3rem;
+  }
+
+  &:active {
+    background-color: var(--orange);
+    border-radius: 0.3rem;
+  }
+}
+
+
+@media (max-width: 1050px) {
+  .sectionBoxSearch {
+    text-align: start;
+
+    Input {
+      width: 71%;
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .searchSection {
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  .searchBox {
+    width: 170px;
+  }
+
+  .articleUpdateSearch {
+    padding: 5px 0 5px;
+  }
+
+  .deleteArticleSearch {
+    padding: 5px 0 5px;
+  }
+
+  .publishArticleSearch {
+    padding: 5px 0 5px;
+  }
+
+  .despublishArticleSearch {
+    padding: 5px 0 5px;
+  }
+}
+
+@media (max-width: 566px) {
+  .boxSearch{
+    flex-direction: column;
+
+    Input{
+       margin: 10px;
+    }
+
+    button{
+       width: 40%;
+    }
+ }
+
+}
