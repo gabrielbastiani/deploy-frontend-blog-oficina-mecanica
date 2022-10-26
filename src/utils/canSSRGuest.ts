@@ -8,7 +8,7 @@ export function canSSRGuest<P>(fn: GetServerSideProps<P>) {
     const cookies = parseCookies(ctx);
 
     // Se o cara tentar acessar a pagina porem tendo já um login salvo redirecionamos
-    if(cookies['@blogbuilder.token']){
+    if(cookies['@blogoficinamecanica.token']){
       return {
         redirect:{
           destination: '/dashboard',

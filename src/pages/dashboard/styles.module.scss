@@ -21,9 +21,9 @@
     height: 40px;
     border-radius: 0.3rem;
     margin-bottom: 1rem;
-    color: var(--orange);
+    color: var(--blue);
     background-color: var(--black);
-    border: 1px solid var(--orange);
+    border: 1px solid var(--blue);
     padding: 0 0.5rem;
   }
 }
@@ -345,7 +345,7 @@
     padding: 5px 10px;
     height: 40px;
     border: 0;
-    background-color: var(--orange);
+    background-color: var(--blue);
     font-weight: bold;
     font-size: 1.2rem;
     border-radius: 0.3rem;
@@ -360,12 +360,12 @@
   cursor: pointer;
 
   &:hover {
-    background-color: var(--orange);
+    background-color: var(--blue);
     border-radius: 0.3rem;
   }
 
   &:active {
-    background-color: var(--orange);
+    background-color: var(--blue);
     border-radius: 0.3rem;
   }
 }

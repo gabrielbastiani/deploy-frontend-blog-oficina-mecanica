@@ -9,8 +9,8 @@ export function Ads() {
    return (
       <>
          <div className={styles.boxAds}>
-            <Link href={"https://go.hotmart.com/H75893038U"}>
-                  <Image className={styles.banner} src="/Curso-de-programacao.png" width={260} height={200} alt="dankicode" />
+            <Link href={"https://treinamentoautomotivo.com/manual-de-reparo-em-modulos/?ref=R11990219E&hsrc=cm9kYXBl"}>
+                  <Image className={styles.banner} src="/reparo-modulo-injecao.png" width={260} height={200} alt="dankicode" />
             </Link>
          </div>
       </>

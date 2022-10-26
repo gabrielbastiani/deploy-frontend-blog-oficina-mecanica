@@ -146,7 +146,7 @@ export default function Newslatters() {
    return (
       <>
          <Head>
-            <title>Central de E-mails - Blog Builder Seu Negócio Online</title>
+            <title>Central de E-mails - Blog Oficina Mecânica Online</title>
          </Head>
          <main>
 

@@ -6,12 +6,14 @@ import { BsWhatsapp } from 'react-icons/bs'
 import Link from '../../../node_modules/next/link'
 import Image from '../../../node_modules/next/image'
 
+
+
 export default function Sobre() {
 
    return (
       <>
          <Head>
-            <title>Sobre - Blog Builder Seu Negócio Online</title>
+            <title>Sobre - Blog Oficina Mecânica Online</title>
          </Head>
          <main>
 
@@ -26,13 +28,7 @@ export default function Sobre() {
 
                   <div className={styles.userDescription}>
                      <p>
-                        Me chamo Gabriel Campos de Bastiani, formado em Gestão Comercial pelo centro universitário UNIFTEC da cidade de Caxias do Sul-RS; Junto ao conhecimento obtido na faculdade, e principalmente pelo conhecimento de longa data em Web Design (criação e desenvolvimento de sites e lojas virtuais), aliando tudo isso com técnicas de Marketing Digital; Fundei a Builder Seu Negócio Online, vislumbrando o mercado de pequenas e médias empresas, e os profissionais autônomos e liberais.
-                     </p>
-
-                     <h2>Minha Missão</h2>
-
-                     <p>
-                        Ajudar pequenas e médias empresas, como também profissionais autônomos e liberais, a colocarem seus negócios aqui na internet, para assim aumentarem consideravelmente as procuras por orçamentos e, consecutivamente, vendas.
+                        Me chamo Gabriel Campos de Bastiani, formado em Técnico Automotivo pelo SENAI da cidade de Caxias do Sul-RS; Junto ao conhecimento obtido no SENAI, gostaria de compartilhar esse conhecimento junto a todos que se interessam pelo negócio.
                      </p>
 
                      <Link className={styles.whatsButton} href={`https://api.whatsapp.com/send?phone=5554996860104`}>

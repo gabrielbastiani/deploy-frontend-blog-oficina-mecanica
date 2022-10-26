@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             buttonText="Aceito"
             declineButtonText="Não aceito"
             cookieName="myAwesomeCookieName2"
-            style={{ background: "var(--orange)" }}
+            style={{ background: "var(--blue)" }}
             buttonStyle={{ color: "var(--white)", fontSize: "15px", background: "var(--black)" }}
             expires={150}
             enableDeclineButton

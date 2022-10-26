@@ -666,7 +666,7 @@ export default function NewsTags() {
   return (
     <>
       <Head>
-        <title>TAGs - Builder Seu Negócio Online</title>
+        <title>TAGs - Oficina Mecânica Online</title>
       </Head>
       <main className={styles.containerMain}>
 

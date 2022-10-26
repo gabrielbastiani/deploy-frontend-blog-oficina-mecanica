@@ -10,7 +10,7 @@ export default function PoliticasDePrivacidade() {
     return (
         <>
             <Head>
-                <title>Politicas de Privacidade - Blog Builder Seu Negócio Online</title>
+                <title>Politicas de Privacidade - Blog Oficina Mecânica Online</title>
             </Head>
             <main>
 
@@ -20,7 +20,7 @@ export default function PoliticasDePrivacidade() {
 
                     <h1>Pol&iacute;tica Privacidade</h1>
 
-                    <p>A sua privacidade &eacute; importante para n&oacute;s. &Eacute; pol&iacute;tica do Blog Builder Seu Negocio Online respeitar a sua privacidade em rela&ccedil;&atilde;o a qualquer informa&ccedil;&atilde;o sua que possamos coletar no site <Link href="https://blog.builderseunegocioonline.com.br">Blog Builder Seu Negocio Online</Link>, e outros sites que possu&iacute;mos e operamos.</p>
+                    <p>A sua privacidade &eacute; importante para n&oacute;s. &Eacute; pol&iacute;tica do Blog Oficina Mecanica Online respeitar a sua privacidade em rela&ccedil;&atilde;o a qualquer informa&ccedil;&atilde;o sua que possamos coletar no site <Link href="https://oficinamecanicaonline.com">Blog Oficina Mecanica Online</Link>, e outros sites que possu&iacute;mos e operamos.</p>
 
                     <p>Solicitamos informa&ccedil;&otilde;es pessoais apenas quando realmente precisamos delas para lhe fornecer um servi&ccedil;o. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Tamb&eacute;m informamos por que estamos coletando e como ser&aacute; usado.</p>
 
@@ -34,7 +34,7 @@ export default function PoliticasDePrivacidade() {
 
                     <p>O uso continuado de nosso site ser&aacute; considerado como aceita&ccedil;&atilde;o de nossas pr&aacute;ticas em torno de <Link href='https://avisodeprivacidad.info/' rel='nofollow'>Aviso de Privacidade</Link> e informa&ccedil;&otilde;es pessoais. Se voc&ecirc; tiver alguma d&uacute;vida sobre como lidamos com dados do usu&aacute;rio e informa&ccedil;&otilde;es pessoais, entre em contacto connosco.</p>
 
-                    <h2>Pol&iacute;tica de Cookies Blog Builder Seu Negocio Online</h2>
+                    <h2>Pol&iacute;tica de Cookies Blog Oficina Mecanica Online</h2>
 
                     <h3>O que s&atilde;o cookies?</h3>
 
@@ -78,12 +78,12 @@ export default function PoliticasDePrivacidade() {
 
                     <h3>Compromisso do Usu&aacute;rio</h3>
 
-                    <p>O usu&aacute;rio se compromete a fazer uso adequado dos conte&uacute;dos e da informa&ccedil;&atilde;o que o Blog Builder Seu Negocio Online oferece no site e com car&aacute;ter enunciativo, mas n&atilde;o limitativo:</p>
+                    <p>O usu&aacute;rio se compromete a fazer uso adequado dos conte&uacute;dos e da informa&ccedil;&atilde;o que o Blog Oficina Mecanica Online oferece no site e com car&aacute;ter enunciativo, mas n&atilde;o limitativo:</p>
 
                     <ul>
                         <li>A) N&atilde;o se envolver em atividades que sejam ilegais ou contr&aacute;rias &agrave; boa f&eacute; a &agrave; ordem p&uacute;blica;</li>
                         <li>B) N&atilde;o difundir propaganda ou conte&uacute;do de natureza racista, xenof&oacute;bica, <Link href='https://ondeapostar.com/betano-e-confiavel' rel='nofollow'> apostas online</Link> ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</li>
-                        <li>C) N&atilde;o causar danos aos sistemas f&iacute;sicos (hardwares) e l&oacute;gicos (softwares) do Blog Builder Seu Negocio Online, de seus fornecedores ou terceiros, para introduzir ou disseminar v&iacute;rus inform&aacute;ticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</li>
+                        <li>C) N&atilde;o causar danos aos sistemas f&iacute;sicos (hardwares) e l&oacute;gicos (softwares) do Blog Oficina Mecanica Online, de seus fornecedores ou terceiros, para introduzir ou disseminar v&iacute;rus inform&aacute;ticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</li>
                     </ul>
 
                     <h3>Mais informa&ccedil;&otilde;es</h3>

@@ -2,7 +2,7 @@ import { useState, FormEvent, ChangeEvent, useRef } from 'react'
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../../pages/signupAdmin/styles.module.scss';
-import logoImg from '../../../public/LogoBuilderBlack.png';
+import logoImg from '../../../public/LogoOficinaSignupAdmin.png';
 import { Input } from '../../components/ui/Input'
 import { Button } from '../../components/ui/Button'
 import { FiUpload } from 'react-icons/fi'
@@ -122,7 +122,7 @@ export default function SignupAdmin() {
       </Head>
 
       <section className={styles.containerCenterAdmin}>
-        <Image src={logoImg} width={440} height={150} alt="Logo Blog Builder Seu Negocio Online" />
+        <Image src={logoImg} width={440} height={150} alt="Logo Blog Oficina Mecanica Online" />
 
         <div className={styles.login}>
           <h1>Crie sua conta de ADMINISTRADOR</h1>

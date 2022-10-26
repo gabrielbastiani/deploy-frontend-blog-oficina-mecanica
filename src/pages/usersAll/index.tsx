@@ -150,7 +150,7 @@ export default function Contacts() {
   return (
     <>
       <Head>
-        <title>Usúarios - Blog Builder Seu Negócio Online</title>
+        <title>Usúarios - Blog Oficina Mecânica Online</title>
       </Head>
       <main>
 
@@ -232,7 +232,7 @@ export default function Contacts() {
                         <FaTrashAlt className={styles.trash} color='var(--red)' size={25} onClick={() => handleOpenModal(use.id)}/>
                       </div>
                       <div className={styles.sendemailIcon}>
-                        <Link href={`mailto:${use.email}?subject=${use.name} Sou administrador do blog Builder Seu Negócio Online`}>
+                        <Link href={`mailto:${use.email}?subject=${use.name} Sou administrador do Blog Oficina Mecânica Online`}>
                           <RiMailSendLine className={styles.sendMail} color='var(--red)' size={30} />
                         </Link>
                       </div>
@@ -254,7 +254,7 @@ export default function Contacts() {
                     </div>
                     <label>Foto do usúario</label>
                     <div className={styles.userImg}>
-                      <Image className={styles.img} src={"https://apiblog.builderseunegocioonline.com.br/files/" + use?.photo} width={130} height={130} alt="foto usuario" />
+                      <Image className={styles.img} src={"https://apiblog.oficinamecanicaonline.com/files/" + use?.photo} width={130} height={130} alt="foto usuario" />
                     </div>
                   </div>
                 </>

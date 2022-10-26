@@ -1,4 +1,4 @@
-Sitemap: https://blog.builderseunegocioonline.com.br/server-sitemap.xml
+Sitemap: https://oficinamecanicaonline.com/server-sitemap.xml
 
 User-agent: *
 Allow: /*

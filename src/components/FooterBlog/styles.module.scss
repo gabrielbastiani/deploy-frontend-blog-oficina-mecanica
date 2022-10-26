@@ -1,5 +1,5 @@
 .footerContainer{
-  border-top: 5px solid var(--orange);
+  border-top: 5px solid var(--blue);
   background-color: var(--black);
   margin: 0 auto;
   padding: 55px 10rem;
@@ -55,7 +55,7 @@
    }
 
    li:hover{
-    color: var(--orange);
+    color: var(--blue);
    }
 
   a{
@@ -67,7 +67,7 @@
     transition: color 0.7s;
 
    &:hover{
-     color: var(--orange);
+     color: var(--blue);
    }
 
  }
@@ -75,11 +75,11 @@
 }
 
 .emptyList{
-  color: var(--orange);
+  color: var(--blue);
  }
 
  .dateArticles{
-  color: var(--orange);
+  color: var(--blue);
  }
 
 .containerContacts{
@@ -121,7 +121,7 @@
 }
 
 .menuNav ul li a:hover {
-  color: var(--orange);
+  color: var(--blue);
   cursor: pointer;
 }
 

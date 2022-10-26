@@ -294,7 +294,7 @@ export default function Category() {
   return (
     <>
       <Head>
-        <title>Nova categoria - Builder Seu Negócio Online</title>
+        <title>Nova categoria - Oficina Mecânica Online</title>
       </Head>
       <main>
 

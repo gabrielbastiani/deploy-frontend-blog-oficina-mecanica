@@ -34,7 +34,7 @@
 
    .emptyList {
       margin-top: 2rem;
-      color: var(--orange);
+      color: var(--blue);
    }
 }
 
@@ -48,7 +48,7 @@
       width: 50%;
       height: 4px;
       border: 0px;
-      border-top: 1px solid var(--orange);
+      border-top: 1px solid var(--blue);
    }
 
    h1 {
@@ -109,7 +109,7 @@
 
 .emptyList {
    margin-top: 2rem;
-   color: var(--orange);
+   color: var(--blue);
 }
 
 .containerPagination {
@@ -131,7 +131,7 @@
       padding: 5px 10px;
       height: 40px;
       border: 0;
-      background-color: var(--orange);
+      background-color: var(--blue);
       font-weight: bold;
       font-size: 1.2rem;
       border-radius: 0.3rem;
@@ -146,12 +146,12 @@
    cursor: pointer;
 
    &:hover {
-      background-color: var(--orange);
+      background-color: var(--blue);
       border-radius: 0.3rem;
    }
 
    &:active {
-      background-color: var(--orange);
+      background-color: var(--blue);
       border-radius: 0.3rem;
    }
 }
@@ -389,7 +389,7 @@
    margin-bottom: 70px;
 
    .antes {
-      background-color: var(--orange);
+      background-color: var(--blue);
       padding: 13px;
       font-weight: 900;
       border: 0;
@@ -403,7 +403,7 @@
    }
 
    .proximo {
-      background-color: var(--orange);
+      background-color: var(--blue);
       padding: 13px;
       font-weight: 900;
       border: 0;

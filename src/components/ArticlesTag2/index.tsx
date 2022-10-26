@@ -61,7 +61,7 @@ export function ArticlesTag2() {
    return (
       <>
          <Head>
-            <title>TAG - {tagName2} - Blog Builder Seu Negócio Online</title>
+            <title>TAG - {tagName2} - Blog Oficina Mecânica Online</title>
          </Head>
 
          <main className={styles.dashboard}>
@@ -89,13 +89,13 @@ export function ArticlesTag2() {
                               </Link>
                               </div>
                               <div className={styles.informationsArticle}>
-                                 <span><BsCalendarCheck color='var(--orange)' size={20} /> {moment(articl?.created_at).format('DD/MM/YYYY')}</span>
-                                 <span><BiEdit color='var(--orange)' size={20} />
+                                 <span><BsCalendarCheck color='var(--blue)' size={20} /> {moment(articl?.created_at).format('DD/MM/YYYY')}</span>
+                                 <span><BiEdit color='var(--blue)' size={20} />
                                     <Link href={`/authorArticles?name=${articl?.name}`}>
                                        {articl?.name}
                                     </Link>
                                  </span>
-                                 <span><AiOutlineFolderOpen color='var(--orange)' size={25} />
+                                 <span><AiOutlineFolderOpen color='var(--blue)' size={25} />
                                     <Link href={`/categoryPage?categoryName=${articl?.categoryName}`}>
                                        {articl?.categoryName}
                                     </Link>
@@ -103,12 +103,12 @@ export function ArticlesTag2() {
                               </div>
                               <Link href={`/articlePage/${articl.title}`}>
                                  <div className={styles.bannerArticle}>
-                                    <Image src={"https://apiblog.builderseunegocioonline.com.br/files/" + articl?.banner} width={740} height={418} alt="banner do artigo" />
+                                    <Image src={"https://apiblog.oficinamecanicaonline.com/files/" + articl?.banner} width={740} height={418} alt="banner do artigo" />
                                  </div>
                               </Link>
                               <div className={styles.tags}>
 
-                                 <span><AiOutlineTags color='var(--orange)' size={25} />
+                                 <span><AiOutlineTags color='var(--blue)' size={25} />
                                     <Link href={`/tagArticlesPageOne?tagName1=${articl?.tagName1}`}>
                                        {articl?.tagName1}
                                     </Link>
@@ -145,7 +145,7 @@ export function ArticlesTag2() {
                               <Link href={`/articlePage/${articl.title}`}>
                                  <div className={styles.articleMore}>
                                     <Button>Ler mais...</Button>
-                                    <AiOutlineArrowRight className={styles.arrowArticle} color='var(--orange)' size={30} />
+                                    <AiOutlineArrowRight className={styles.arrowArticle} color='var(--blue)' size={30} />
                                  </div>
                               </Link>
 

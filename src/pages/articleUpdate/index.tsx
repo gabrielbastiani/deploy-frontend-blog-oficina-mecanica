@@ -1,4 +1,4 @@
-import { useState, ChangeEvent, FormEvent, useContext, useEffect } from 'react'
+import { useState, ChangeEvent, FormEvent, useEffect } from 'react'
 import Head from "next/head"
 import styles from './styles.module.scss'
 import Router from 'next/router'
@@ -105,7 +105,7 @@ export default function ArticleUpdate({ categoryList, tags1List, tags2List, tags
 
             setTitle(title)
             setDescription(description)
-            setBannerUrl(`https://apiblog.builderseunegocioonline.com.br/files/${banner}`)
+            setBannerUrl(`https://apiblog.oficinamecanicaonline.com/files/${banner}`)
 
         }
 
@@ -263,7 +263,7 @@ export default function ArticleUpdate({ categoryList, tags1List, tags2List, tags
     return (
         <>
             <Head>
-                <title>Atualizar artigo - {title} - Builder Seu Negócio Online</title>
+                <title>Atualizar artigo - {title} - Oficina Mecânica Online</title>
             </Head>
 
             <HeaderPainel />
@@ -366,6 +366,8 @@ export default function ArticleUpdate({ categoryList, tags1List, tags2List, tags
                 </Link>
 
                 <form className={styles.form} onSubmit={handleUpdateTitle}>
+
+                <br />
 
                     <h3>Atualize o titulo do artigo (OBS: Não insira caracteres especiais como: ?, !, %, $, &, *, #, @, (, ))</h3>
 

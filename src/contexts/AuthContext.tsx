@@ -32,7 +32,7 @@ export const AuthContext = createContext({} as AuthContextData)
 
 export function signOut(){
   try{
-    destroyCookie(undefined, '@blogbuilder.token')
+    destroyCookie(undefined, '@blogoficinamecanica.token')
     Router.push('/login')
   }catch{
     toast.error('Erro ao deslogar!')
@@ -47,7 +47,7 @@ export function AuthProvider({ children }: AuthProviderProps){
   useEffect(() => {
 
     // tentar pegar algo no cookie
-    const { '@blogbuilder.token': token } = parseCookies();
+    const { '@blogoficinamecanica.token': token } = parseCookies();
 
     if(token){
       api.get('/me').then(response => {
@@ -76,7 +76,7 @@ export function AuthProvider({ children }: AuthProviderProps){
 
       const { id, photo, name, token } = response.data;
 
-      setCookie(undefined, '@blogbuilder.token', token, {
+      setCookie(undefined, '@blogoficinamecanica.token', token, {
         maxAge: 60 * 60 * 24 * 30, // Expirar em 1 mes
         path: "/" // Quais caminhos terao acesso ao cookie
       })

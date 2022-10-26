@@ -63,25 +63,25 @@ export function FooterBlog() {
                <br />
                <br />
                <Link href="/">
-                  <Image src="/LogoBuilderWhite.png" width={190} height={70} alt="logomarca" />
+                  <Image src="/LogoOficinaMecanica.png" width={190} height={70} alt="logomarca" />
                </Link>
                <br />
                <br />
-               <p>Desenvolvemos ferramentas e soluções online para o seu negócio.</p>
+               <p>Um bom espaço para o conhecimento automotivo.</p>
                <br />
                <br />
                <br />
                <div className={styles.contactsFooter}>
                   <div className={styles.containerContacts}>
-                     <span><AiFillPhone color='var(--orange)' size={38} /></span>
+                     <span><AiFillPhone color='var(--blue)' size={38} /></span>
                      <Link href="https://api.whatsapp.com/send?phone=5554996860104" target="_blank"><p> (54) 99686-0104</p></Link>
                   </div>
                   <div className={styles.containerContacts}>
-                     <span><GrMail color='var(--orange)' size={38} /></span>
-                     <Link href="mailto:contato@builderseunegocioonline.com.br"><p> contato@builderseunegocioonline.com.br</p></Link>
+                     <span><GrMail color='var(--blue)' size={38} /></span>
+                     <Link href="mailto:contato.graxa@oficinamecanicaonline.com"><p> contato.graxa@oficinamecanicaonline.com</p></Link>
                   </div>
                   <div className={styles.containerContacts}>
-                     <span><FaMapMarker color='var(--orange)' size={38} /></span>
+                     <span><FaMapMarker color='var(--blue)' size={38} /></span>
                      <p>Rua José Soares de Oliveira 2417 Caxias do Sul-RS CEP: 95034-100</p>
                   </div>
                </div>
@@ -146,16 +146,16 @@ export function FooterBlog() {
                <br />
                <br />
                <Link href="https://www.facebook.com/builderseunegocioonline" target="_blank">
-                  <AiFillFacebook color='var(--orange)' size={45} />
+                  <AiFillFacebook color='var(--blue)' size={45} />
                </Link>
                <Link href="https://www.instagram.com/builderseunegocioonline" target="_blank">
-                  <AiFillInstagram color='var(--orange)' size={45} />
+                  <AiFillInstagram color='var(--blue)' size={45} />
                </Link>
                <Link href="https://www.linkedin.com/in/gabriel-campos-de-bastiani" target="_blank">
-                  <AiFillLinkedin color='var(--orange)' size={45} />
+                  <AiFillLinkedin color='var(--blue)' size={45} />
                </Link>
                <Link href="https://github.com/gabrielbastiani" target="_blank">
-                  <FaGithubSquare color='var(--orange)' size={45} />
+                  <FaGithubSquare color='var(--blue)' size={45} />
                </Link>
 
                <br />

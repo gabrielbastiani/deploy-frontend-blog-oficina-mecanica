@@ -1,9 +1,9 @@
 module.exports = {
-    siteUrl: 'https://blog.builderseunegocioonline.com.br',
+    siteUrl: 'https://oficinamecanicaonline.com',
     generateRobotsTxt: true, // opcional
     priority: null,
     changefreq: null,
     robotsTxtOptions: {
-      additionalSitemaps: ['https://blog.builderseunegocioonline.com.br/server-sitemap.xml'],
+      additionalSitemaps: ['https://oficinamecanicaonline.com/server-sitemap.xml'],
     },
   }

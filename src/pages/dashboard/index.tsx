@@ -358,7 +358,7 @@ export default function Dashboard() {
    return (
       <>
          <Head>
-            <title>Painel - Blog Builder Seu Negócio Online</title>
+            <title>Painel - Blog Oficina Mecânica Online</title>
          </Head>
 
          <main className={styles.dashboard}>
@@ -510,7 +510,7 @@ export default function Dashboard() {
                                     <div className={styles.boxArticle}>
                                        <div className={styles.titleArticle}>{articl?.title}</div>
                                        <div className={styles.listArticles}>
-                                          <div className={styles.bannerArticle}><Image src={"https://apiblog.builderseunegocioonline.com.br/files/" + articl?.banner} width={740} height={418} alt="banner do artigo" /></div>
+                                          <div className={styles.bannerArticle}><Image src={"https://apiblog.oficinamecanicaonline.com/files/" + articl?.banner} width={740} height={418} alt="banner do artigo" /></div>
                                           <div className={styles.descriptionArticle} dangerouslySetInnerHTML={{ __html: articl?.description }}></div>
                                           <div className={styles.datesAndPublish}>
                                              <span>Categoria: {articl?.categoryName}</span>
@@ -634,7 +634,7 @@ export default function Dashboard() {
                                     <div className={styles.boxArticle}>
                                        <div className={styles.titleArticle}>{articlAdmin?.title}</div>
                                        <div className={styles.listArticles}>
-                                          <div className={styles.bannerArticle}><Image src={"https://apiblog.builderseunegocioonline.com.br/files/" + articlAdmin?.banner} width={740} height={418} alt="banner do artigo" /></div>
+                                          <div className={styles.bannerArticle}><Image src={"https://apiblog.oficinamecanicaonline.com/files/" + articlAdmin?.banner} width={740} height={418} alt="banner do artigo" /></div>
                                           <div className={styles.descriptionArticle} dangerouslySetInnerHTML={{ __html: articlAdmin?.description }}></div>
                                           <div className={styles.datesAndPublish}>
                                              <span>Categoria: {articlAdmin?.categoryName}</span>

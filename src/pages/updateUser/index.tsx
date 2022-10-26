@@ -41,7 +41,7 @@ export default function UpdateUser() {
             setName(name)
             setEmail(email)
             setRole(role)
-            setPhotoUrl(`https://apiblog.builderseunegocioonline.com.br/files/${photo}`)
+            setPhotoUrl(`https://apiblog.oficinamecanicaonline.com/files/${photo}`)
 
         }
 
@@ -178,7 +178,7 @@ export default function UpdateUser() {
     return (
         <>
             <Head>
-                <title>Atualizar usúario - {name} - Builder Seu Negócio Online</title>
+                <title>Atualizar usúario - {name} - Oficina Mecânica Online</title>
             </Head>
 
             <HeaderPainel />

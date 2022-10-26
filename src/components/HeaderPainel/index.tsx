@@ -36,7 +36,7 @@ export function HeaderPainel() {
       <header className={styles.headerContainer}>
          <div className={styles.headerContent}>
             <Link href="/">
-               <Image className={styles.imgLogo} src="/LogoBuilderWhite.png" width={170} height={50} alt="logomarca" />
+               <Image className={styles.imgLogo} src="/LogoOficinaMecanica.png" width={170} height={50} alt="logomarca" />
             </Link>
 
             <div className={styles.dataUser}>
@@ -46,7 +46,7 @@ export function HeaderPainel() {
 
                <div className={styles.userImg}>
                   <Link href="/detailUser">
-                     <Image className={styles.img} src={"https://apiblog.builderseunegocioonline.com.br/files/" + user?.photo} width={40} height={50} alt="foto usuario" />
+                     <Image className={styles.img} src={"https://apiblog.oficinamecanicaonline.com/files/" + user?.photo} width={40} height={50} alt="foto usuario" />
                   </Link>
                </div>
                

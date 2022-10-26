@@ -26,9 +26,9 @@
     height: 40px;
     border-radius: 0.3rem;
     margin-bottom: 1rem;
-    color: var(--orange);
+    color: var(--blue);
     background-color: var(--black);
-    border: 1px solid var(--orange);
+    border: 1px solid var(--blue);
     padding: 0 0.5rem;
   }
 
@@ -105,7 +105,7 @@
   margin-bottom: 1rem;
   color: var(--gray);
   background-color: var(--black);
-  border: 1px solid var(--orange);
+  border: 1px solid var(--blue);
   height: 40px;
   padding: 0 0.5rem;
 
@@ -155,7 +155,7 @@
 
   Button {
     max-width: 280px;
-    background-color: var(--orange);
+    background-color: var(--blue);
   }
 }
 

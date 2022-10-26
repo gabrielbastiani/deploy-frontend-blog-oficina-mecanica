@@ -146,7 +146,7 @@ export default function Contacts() {
    return (
       <>
          <Head>
-            <title>Contatos - Blog Builder Seu Negócio Online</title>
+            <title>Contatos - Blog Oficina Mecânica Online</title>
          </Head>
          <main>
 
@@ -225,7 +225,7 @@ export default function Contacts() {
                                     <FaTrashAlt className={styles.trash} color='var(--red)' size={25} onClick={() => handleOpenModal(contato.id)}/>
                                  </div>
                                  <div className={styles.sendemailIcon}>
-                                    <Link href={`mailto:${contato.emailContact}?subject=${contato.nameContact} falo do blog Builder Seu Negócio Online`}>
+                                    <Link href={`mailto:${contato.emailContact}?subject=${contato.nameContact} falo do Blog Oficina Mecânica Online`}>
                                        <RiMailSendLine className={styles.sendMail} color='var(--red)' size={30} />
                                     </Link>
                                  </div>

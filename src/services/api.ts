@@ -8,9 +8,9 @@ export function setupAPIClient(ctx = undefined){
   let cookies = parseCookies(ctx);
 
   const api = axios.create({
-    baseURL: 'https://apiblog.builderseunegocioonline.com.br',
+    baseURL: 'https://apiblog.oficinamecanicaonline.com',
     headers: {
-      Authorization: `Bearer ${cookies['@blogbuilder.token']}`
+      Authorization: `Bearer ${cookies['@blogoficinamecanica.token']}`
     }
   })
 

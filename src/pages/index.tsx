@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Blog Builder Seu Negócio Online - Home</title>
+        <title>Blog Oficina Mecânica Online - Home</title>
       </Head>
       <main className={styles.mainContent}>
         <HeaderBlog />

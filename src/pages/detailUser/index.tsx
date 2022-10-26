@@ -183,7 +183,7 @@ export default function DetailUser() {
             <p>Você é um usúario <b>administrador!</b></p>
           )}
 
-          <Image className={styles.userImg} src={"https://apiblog.builderseunegocioonline.com.br/files/" + user?.photo} width={540} height={458} alt="foto usuario" />
+          <Image className={styles.userImg} src={"https://apiblog.oficinamecanicaonline.com/files/" + user?.photo} width={540} height={458} alt="foto usuario" />
 
           <form className={styles.form} onSubmit={handleRegisterPhoto}>
 

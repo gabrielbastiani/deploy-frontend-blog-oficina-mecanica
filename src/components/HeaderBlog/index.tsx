@@ -32,7 +32,7 @@ export function HeaderBlog() {
       <header className={styles.headerContainer}>
          <div className={styles.headerContent}>
             <Link href="/">
-               <Image src="/LogoBuilderWhite.png" width={170} height={50} alt="logomarca" />
+               <Image src="/LogoOficinaMecanica.png" width={170} height={50} alt="logomarca" />
             </Link>
             <nav className={styles.menuNav}>
                <ul>

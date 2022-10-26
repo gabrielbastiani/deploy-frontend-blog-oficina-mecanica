@@ -3,7 +3,7 @@ import { canSSRGuest } from '../../utils/canSSRGuest'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../login/styles.module.scss'
-import logoLoginImg from '../../../public/LogoBuilderBlack.png'
+import logoLoginImg from '../../../public/LogoOficina.png'
 import { Input } from '../../components/ui/Input/index'
 import { Button } from '../../components/ui/Button/index'
 import { toast } from 'react-toastify'
@@ -56,10 +56,10 @@ export default function Recover() {
    return (
       <>
          <Head>
-            <title>Recuperar minha senha - Blog Builder Seu Negócio Online</title>
+            <title>Recuperar minha senha - Blog Oficina Mecânica Online</title>
          </Head>
          <div className={styles.containerCenter}>
-            <Image src={logoLoginImg} width={440} height={150} alt="Logo Builder Seu Negocio Online" />
+            <Image src={logoLoginImg} width={440} height={150} alt="Logo Oficina Mecanica Online" />
 
             <div className={styles.login}>
                <form onSubmit={handleLogin}>

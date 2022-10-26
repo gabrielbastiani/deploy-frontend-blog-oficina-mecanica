@@ -8,7 +8,7 @@ export function canSSRAuth<P>(fn: GetServerSideProps<P>){
   return async (ctx: GetServerSidePropsContext): Promise<GetServerSidePropsResult<P>> => {
     const cookies = parseCookies(ctx);    
 
-    const token = cookies['@blogbuilder.token'];
+    const token = cookies['@blogoficinamecanica.token'];
 
     if(!token){
       return{
@@ -23,7 +23,7 @@ export function canSSRAuth<P>(fn: GetServerSideProps<P>){
       return await fn(ctx);
     }catch(err){
       if(err instanceof AuthTokenError){
-        destroyCookie(ctx, '@blogbuilder.token');
+        destroyCookie(ctx, '@blogoficinamecanica.token');
 
         return{
           redirect:{

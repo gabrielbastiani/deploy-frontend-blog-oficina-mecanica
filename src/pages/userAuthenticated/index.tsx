@@ -38,7 +38,7 @@ export default function UserAuthenticated() {
         <>
 
             <Head>
-                <title>Autenticar - Builder Seu Negócio Online</title>
+                <title>Autenticar - Oficina Mecânica Online</title>
             </Head>
 
             <main className={styles.container}>
