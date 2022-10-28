@@ -10,7 +10,7 @@ export function Ads() {
       <>
          <div className={styles.boxAds}>
             <Link href={"https://treinamentoautomotivo.com/manual-de-reparo-em-modulos/?ref=R11990219E&hsrc=cm9kYXBl"}>
-                  <Image className={styles.banner} src="/reparo-modulo-injecao.png" width={260} height={200} alt="dankicode" />
+                  <Image className={styles.banner} src="/reparo-modulo-injecao.png" width={260} height={200} alt="reparo-de-modulo-de-injecao-eletronica" />
             </Link>
          </div>
       </>
