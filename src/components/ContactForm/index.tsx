@@ -109,7 +109,7 @@ export function ContactForm() {
                     <ReCAPTCHA
                         className={styles.recaptcha}
                         ref={captcha}
-                        sitekey="6Lc8Hu8hAAAAAB4EHDuIsWxMk9Hfn5Wigm-RpdoB"
+                        sitekey="6LfEo7wiAAAAALlmW4jdxPw4HQ-UH5NNCDatw8ug"
                         onChange={onChange}
                     />
 
