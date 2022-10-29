@@ -4,8 +4,8 @@ import styles from './styles.module.scss'
 import Link from 'next/link'
 import { AiFillPhone } from 'react-icons/ai';
 import { GrMail } from 'react-icons/gr'
-import { FaMapMarker, FaGithubSquare } from 'react-icons/fa'
-import { AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
+import { FaMapMarker } from 'react-icons/fa'
+import { AiFillYoutube, AiFillFacebook } from 'react-icons/ai'
 import moment from 'moment';
 import { ContactForm } from '../ContactForm/index';
 import Image from '../../../node_modules/next/image';
@@ -134,7 +134,6 @@ export function FooterBlog() {
                            </ul>
                         )}
                      </li>
-                     <li><Link href="https://builderseunegocioonline.com.br" target="_blank"><a>Nossos Serviços</a></Link></li>
                      <li><Link href="/sobre"><a>Sobre</a></Link></li>
                      <li><Link href="/politicasDePrivacidade"><a>Politicas de Privacidade</a></Link></li>
                   </ul>
@@ -145,17 +144,11 @@ export function FooterBlog() {
                <hr />
                <br />
                <br />
-               <Link href="https://www.facebook.com/builderseunegocioonline" target="_blank">
+               <Link href="https://www.facebook.com/groups/grupooficinamecanicaonline" target="_blank">
                   <AiFillFacebook color='var(--blue)' size={45} />
                </Link>
-               <Link href="https://www.instagram.com/builderseunegocioonline" target="_blank">
-                  <AiFillInstagram color='var(--blue)' size={45} />
-               </Link>
-               <Link href="https://www.linkedin.com/in/gabriel-campos-de-bastiani" target="_blank">
-                  <AiFillLinkedin color='var(--blue)' size={45} />
-               </Link>
-               <Link href="https://github.com/gabrielbastiani" target="_blank">
-                  <FaGithubSquare color='var(--blue)' size={45} />
+               <Link href="https://www.youtube.com/channel/UCqXjV8szEOd-2sV5g4Iumeg" target="_blank">
+                  <AiFillYoutube color='var(--blue)' size={45} />
                </Link>
 
                <br />
