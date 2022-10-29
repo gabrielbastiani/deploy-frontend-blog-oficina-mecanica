@@ -100,26 +100,11 @@
     }
   }
 
-  .optionMenu1{
-    list-style-type: none;
-    position: absolute;
-    left: 0;
-    margin: 60px 320px;
-    background-color: var(--black);
-    width: 230px;
-    padding: 10px;
-
-    a{
-      color: white;
-      text-decoration: none;
-    }
-  }
-
   .optionMenu2{
     list-style-type: none;
     position: absolute;
     left: 0;
-    margin: 90px 320px;
+    margin: 65px 320px;
     background-color: var(--black);
     width: 230px;
     padding: 10px;
@@ -157,7 +142,7 @@
     list-style-type: none;
     position: absolute;
     left: 0;
-    margin: 60px 160px;
+    margin: 50px 160px;
   }
   
   .menuNavMobile ul li a {
@@ -182,52 +167,40 @@
     margin: 30px 240px;
   }
 
-  .optionMenu1{
+  .optionMenu2{
     margin: 65px 240px;
   }
 
-  .optionMenu2{
-    margin: 100px 240px;
-  }
-
   .menuNavMobile ul {
-    margin: 68px 120px;
+    margin: 50px 120px;
   }
 }
 
 @media (max-width: 475px) {
   .menuNavMobile ul {
-    margin: 67px 90px;
+    margin: 50px 90px;
   }
 
   .optionMenu{
     margin: 30px 180px;
   }
 
-  .optionMenu1{
-    margin: 65px 180px;
-  }
-
   .optionMenu2{
-    margin: 100px 180px;
+    margin: 65px 180px;
   }
 
 }
 
 @media (max-width: 415px) {
   .menuNavMobile ul {
-    margin: 68px 50px;
+    margin: 50px 50px;
   }
 
   .optionMenu{
     margin: 30px 100px;
   }
 
-  .optionMenu1{
-    margin: 65px 100px;
-  }
-
   .optionMenu2{
-    margin: 100px 100px;
+    margin: 65px 100px;
   }
 }
